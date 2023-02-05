@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Trending Dishes</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Trending Dishes</h1>
+    <p>Here are some dishes that are currently trending:</p>
+    <table>
+      <tr>
+        <th>Dish</th>
+        <th>Description</th>
+      </tr>
+      <tr id="spicy_pasta_article">
+        <td>Spicy Pasta</td>
+        <td><img id="spicy_pasta_image" src="https://www.lifeasastrawberry.com/wp-content/uploads/2015/01/spicy-tomato-pasta-1.jpg" alt="spicy pasta" width="200">
+          <p>Bring a large pan of water to the boil. Gently heat a large dry frying pan, toast the pine nuts until golden, then set aside. Add 1 tbsp of the olive oil, then fry the shallots for 5 minutes.
+            Add the chilli and halved cherry tomatoes, turn down the heat and cook for 10 minutes. During the last 5 minutes cook the pasta according to the pack instructions, then drain briskly, leaving a small splash of the cooking water in the pan to create more of a sauce.
+            Taste and season the tomatoes, add the vinegar and most of the basil, then toss the sauce through the cooked pasta along with the remaining oil. Divide among plates, then scatter with the pine nuts, remaining basil leaves and plenty of grated cheese, if using.</p>
+        <button class="save-btn">Save for later</button>
+        <button class="like-btn" onclick="likePost(this)">Like</button>
+        <span id="spicy_pasta_like"></span>
+        </td>
+      </tr>
+      <tr id="stir_fry_article">
+        <td>Stir Fry</td>
+        <td><img id="stir_fry_image" src="https://therecipecritic.com/wp-content/uploads/2019/08/vegetable_stir_fry.jpg" alt="stir fry" width="200">
+          <p>In a medium bowl, mix the soy sauce, peanut butter and lime juice with 2 tbsp water. Set aside.
+            Heat a splash of oil in a wok or high-sided frying pan. Add the onion, then stir-fry for a few minutes until softening. Add the garlic and ginger, then stir-fry for 30 seconds more.
+            Add the sprouts to the wok and stir-fry for 4-5 minutes over a medium-high heat until tender and charred in places. Add a splash of water to stop things sticking. Next, add the cooked noodles, tossing to warm through.
+            Pour in the soy/peanut butter mix, tossing again to coat everything well, then serve scattered with the coriander and crunchy seeds.</p>
+        <button class="save-btn">Save for later</button>
+        <button class="like-btn" onclick="likePost(this)">Like</button>
+        <span id="stir_fry_like"></span>
+        </td>
+      </td>
+      </tr>
+      <tr id="cheesecake_article">
+        <td>Cheesecake</td>
+        <td><img id="cheesecake_image" src="https://www.onceuponachef.com/images/2017/12/cheesecake-1200x1393.jpg" alt="cheesecake" width="200" >
+          <p>To make the crust: Stir together all of the crust ingredients, mixing until thoroughly combined.
+            Press the crumbs into the bottom and up the sides of the pie pan, making a thicker layer on the bottom than on the sides.
+            To make the filling: Mix together the room-temperature cream cheese and sugar until smooth. Mix in the eggs and vanilla, again mixing until smooth. To avoid beating too much air into the batter, use a mixer set at low-medium speed. To avoid lumps, make sure the cream cheese is softened, and/or at room temperature.</p>
+        <button class="save-btn">Save for later</button>
+        <button class="like-btn" onclick="likePost(this)">Like</button>
+        <span id="cheesecake_like"></span>
+        </td>
+      </tr>
+      <tr id="raw_onion_article">
+        <td>Raw Onion</td>
+        <td><img id="raw_onion_image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Onion_on_White.JPG/1200px-Onion_on_White.JPG" alt="onion" width="200">
+          <p>Onion is the key to life</p>
+        <button class="save-btn">Save for later</button>
+        <button class="like-btn" onclick="likePost(this)">Like</button>
+        <span id="raw_onion_like"></span>
+        </td>
+      </tr>
+      <tr id="burger_article">
+        <td>Burger</td>
+        <td><img id="burger_image" src="https://images.immediate.co.uk/production/volatile/sites/30/2013/05/Cheeseburger-3d7c922.jpg" alt="burger" width="200">
+          <p>Whisk together egg, salt, and pepper in a medium bowl. Add ground beef and bread crumbs and mix with your hands or a fork until well blended. Form into four 3/4-inch-thick patties.
+            Place patties on the preheated grill. Cover and cook 6 to 8 minutes per side, or to desired doneness. An instant-read thermometer inserted into the center should read at least 160 degrees F (70 degrees C).</p>
+        <button class="save-btn">Save for later</button>
+        <button class="like-btn" onclick="likePost(this)">Like</button>
+        <span id="burger_like"></span>
+        </td>
+      </tr>
+      <tr id="ramen_article">
+        <td>Ramen</td>
+        <td><img id="ramen_image" src="https://www.forkknifeswoon.com/wp-content/uploads/2014/10/simple-homemade-chicken-ramen-fork-knife-swoon-01.jpg" alt="ramen" width="200">
+          <p>Place the cooking fat, garlic, ginger, scallions, and chili sauce in a dutch oven or large pot and cook over medium high heat for 2-3 minutes, until fragrant and the scallions start to soften.
+            Add the chicken stock, beef broth, fish sauce, and soy sauce and bring to a boil over high heat. Taste and adjust as necessary (I add about a cup of water to reduce saltiness).
+            Add your eggs, if cooking, and the noodles to the boiling soup, and cook for about 3 minutes (the noodles I use require about 3 minutes, but follow the package instructions).</p>
+        <button class="save-btn">Save for later</button>
+        <button class="like-btn" onclick="likePost(this)">Like</button>
+        <span id="ramen_like"></span>
+        </td>
+      </tr>
+      <tr id="curry_article">
+        <td>Curry</td>
+        <td><img id="curry_image" src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/113777-0b21d44.jpg" alt="curry" width="200">
+          <p>Heat the oil in a deep pan and gently fry the onion and garlic for about 5 mins until soft. Add the curry paste and stir-fry for 1-2 mins, then tip in the tomatoes and stock.
+            Bring to a simmer, then add the fish. Gently cook for 4-5 mins until the fish flakes easily. Serve immediately with rice or naan</p>
+        <button class="save-btn">Save for later</button>
+        <button class="like-btn" onclick="likePost(this)">Like</button>
+        <span id="curry_like"></span>
+        </td>
+      </tr>
+      <tr id="pizza_article">
+        <td>Pizza</td>
+        <td><img id="pizza_image" src="https://www.recipetineats.com/wp-content/uploads/2020/05/Pepperoni-Pizza_5-SQjpg.jpg" alt="pizza" width="200">
+          <p>Make the sauce: Mix the passata, basil and crushed garlic together, then season to taste. Leave to stand at room temperature while you get on with shaping the base.
+            Roll out the dough: if youve let the dough rise, give it a quick knead, then split into two balls. On a floured surface, roll out the dough into large rounds, about 25cm across, using a rolling pin. The dough needs to be very thin as it will rise in the oven. Lift the rounds onto two floured baking sheets.</p>
+        <button class="save-btn">Save for later</button>
+        <button class="like-btn" onclick="likePost(this)">Like</button>
+        <span id="pizza_like"></span>
+        </td>
+      </tr>
+      <tr id="taco_article">
+        <td>Taco</td>
+        <td><img id="taco_image" src="https://loveandgoodstuff.com/wp-content/uploads/2020/08/classic-ground-beef-tacos-1200x1200.jpg" alt="taco" width="200">
+          <p>Meanwhile, mix 60ml water into the flour with the blade of a knife to make a dough. Knead briefly until smooth, then cut equally into four and roll out each piece on a lightly floured surface into a 16cm round tortilla. Cover with a tea towel to stop them drying out.
+            Remove the cooked tomato and kiwi from the tin and return the veg to the oven for 10 mins. Remove the skin from the kiwi and scoop the flesh into a bowl with the tomato, garlic, half the coriander, bouillon and paprika. Use a hand blender to blitz to a smooth salsa.</p>
+        <button class="save-btn">Save for later</button>
+        <button class="like-btn" onclick="likePost(this)">Like</button>
+        <span id="taco_like"></span>
+        </td>
+      </tr>
+      <tr id="sushi_article">
+        <td>Sushi</td>
+        <td><img id="sushi_image" src="https://properfoodie.com/wp-content/uploads/2020/07/featured-sushi-2b-feature-sushi-2b-1.jpg" alt="sushi" width="200">
+          <p>Spread over some Japanese mayonnaise. Use a spoon to spread out a thin layer of mayonnaise down the middle of the rice.
+            Add the filling. Get your child to top the mayonnaise with a line of their favourite fillings  here weve used tuna and cucumber.
+            Roll it up. Lift the edge of the mat over the rice, applying a little pressure to keep everything in a tight roll.</p>
+        <button class="save-btn">Save for later</button>
+        <button class="like-btn" onclick="likePost(this)">Like</button>
+        <span id="sushi_like"></span>
+        </td>
+      </tr>
+    </table>
+    <p>We update this list regularly, so keep an eye out for more amazing dishes!</p>
+    <p>Browse your saved items <a href="savedItems.html">Saved for later</a></p>
+    <button onclick="history.back()">Go Back</button>
+  </div>
+  <script src="function.js"></script>
+</body>
+</html>

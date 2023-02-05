@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Saved for later</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bookmarks saved for later</h1>
+    <div id="bookmarks"></div>
+
+  </div>
+  <button onclick="history.back()">Go Back</button>
+  <script>
+    let bookmarksDiv =  document.getElementById('bookmarks');
+    if(bookmarksDiv != null){
+        var bookmarks = Object.keys(localStorage);
+        for (var i = 0; i < bookmarks.length; i++) {
+            if(bookmarks[i].includes('_article') || bookmarks[i].includes('_image')){
+                var displayText = bookmarks[i];
+                var sectionHash = localStorage.getItem(displayText);
+                //console.log("displayText: " + displayText + ", sectionHash: " + sectionHash);
+                // create link element
+                var link = document.createElement("a");
+                link.href = "trending.html" + sectionHash;
+                link.innerHTML = displayText.replace(/_/g,' ');
+                bookmarksDiv.appendChild(link);
+                bookmarksDiv.appendChild(document.createElement("br"));
+            }
+        }
+        
+    }
+  </script>
+</body>
+</html>

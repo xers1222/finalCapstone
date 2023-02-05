@@ -1,0 +1,148 @@
+body {
+  /* sets font-family for the entire webpage */
+  font-family: 'Comic Sans MS', sans-serif; 
+  margin: 0;
+  padding: 10px;
+  /* sets background color for the entire webpage */
+  background-color: #0e2913;
+  color: #ffffff;
+}
+
+.container {
+  /* sets max-width for the container class */
+  max-width: 800px;
+  /* centers the container class on the webpage */
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1, h2 {
+  /* centers the text for h1 and h2 elements */
+  text-align: center;
+  color: #ffffff;
+}
+
+h1 {
+  /* sets font-size for h1 elements */
+  font-size: 32px;
+  /* adds a margin-top for h1 elements */
+  margin-top: 20px;
+}
+
+h2 {
+  /* sets font-size for h2 elements */
+  font-size: 24px;
+  /* adds a margin for h2 elements */
+  margin: 20px 0;
+}
+
+p {
+  /* sets font-size for p elements */
+  font-size: 16px;
+  /* adds a margin for p elements */
+  margin: 10px 0;
+}
+
+img {
+  /* sets display property for img elements */
+  display: block;
+  /* centers the img elements and adds margin */
+  margin: 20px auto;
+  /* sets max-width for img elements */
+  max-width: 100%;
+  /* sets height property for img elements */
+  height: auto;
+}
+
+ul {
+  /* sets font-size for ul elements */
+  font-size: 16px;
+  /* sets list-style-type for ul elements */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  /* adds margin for li elements */
+  margin: 10px 0;
+}
+
+a {
+  /* sets color for a elements */
+  color: #fef605;
+  /* removes underline from a elements */
+  text-decoration: none;
+}
+
+/* changes color of a elements when hovered over */
+a:hover {
+  color: #00ff00;
+}
+
+/* adds margin for form elements */
+form {
+  margin: 20px 0;
+}
+
+label {
+  /* sets font-size for label elements */
+  font-size: 16px;
+  /* sets display property for label elements */
+  display: block;
+  /* adds margin-bottom for label elements */
+  margin-bottom: 5px;
+}
+
+/* sets font-size and padding for input elements of type email and submit */
+input[type="email"], input[type="submit"] {
+  font-size: 16px;
+  padding: 5px;
+  /* sets border for input elements */
+  border: 1px solid #cccccc;
+}
+
+input[type="submit"] {
+  /* sets background color for submit input elements */
+  background-color: #00ff00;
+  color: #ffffff;
+  /* sets cursor style for submit input elements */
+  cursor: pointer;
+}
+
+/* sets font style for blockquote elements */
+blockquote {
+  font-style: italic;
+  /* adds margin for blockquote elements */
+  margin: 20px 0;
+  /* sets padding for blockquote elements */
+  padding: 10px 20px;
+  /* sets left border for blockquote elements */
+  border-left: 5px solid #cccccc;
+}
+
+/* removes margin for p elements inside blockquote */
+blockquote p {
+  margin: 0;
+}
+
+/* sets width for table elements and collapses the border */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* sets background color for table elements */
+  background-color: #333333;
+}
+
+/* sets border, padding, text-align, and color for th and td elements */
+th, td {
+  border: 1px solid #cccccc;
+  padding: 5px;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* sets background color for even table rows */
+tr:nth-child(even) {
+  background-color: #333333;
+}
